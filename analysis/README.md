@@ -41,7 +41,7 @@ The goal of this stage is to:
 ## How to Run
 Make sure you have met the requirements in the "Requirements" section of the main `README.md` file.
 
-1. Download the `cleaned_eug_spd.csv` file. Refer to the `File Structure` section in the main `README.md` file to ensure proper structure.
+1. Obtain the `cleaned_eug_spd.csv` file, either by downloading it directly or running the `clean_data.Rmd` file to create it. Refer to the `File Structure` section in the main `README.md` file to ensure proper structure.
 2. Run all chunks in the Rmd file `analysis.Rmd`.
 - Make sure packages get imported first, and the chunks are run in order to prevent errors and messing up the data.
 
