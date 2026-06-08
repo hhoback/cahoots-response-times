@@ -14,7 +14,9 @@ The goal of this stage is to:
 ## Folder Contents
 
 `figures/`: Folder containing all visualizations and figures from the analysis
+
 `results/`: Folder containing all regression results in csv files and a project report, detailing the findings of this study.
+
 `analysis.Rmd`: 
 - Groups priority levels into groups, defines a treatment and control group, creates new variables, and filters the data for pre-shutdown
 - Plots average response times on a line plot to compare cities over time
