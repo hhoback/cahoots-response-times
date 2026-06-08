@@ -38,15 +38,11 @@ The goal of this stage is to:
 - `response_times_5.png` - Image of the plot of average response times over time for the 'service' priority group (5)
 - `freq_pg.png` - Image of the plot of call priority volume composition over time in each city
 
-
-> Note: Because of GitHUB file size limits, the cleaned data and results files are not included in this repository. To produce the cleaned dataset and results, respectively:
-- See README.md in the data cleaning folder
-- See "How to Run" section below
-
 ## How to Run
-Make sure you have met the requirements in the "Requirements" section of the main `README.md` file, have obtained the cleaned and combined dataset of Eugene and Springfield calls from the `data cleaning` section of this repository, and the `cleaned_eug_spd.csv` file is in your root directory with the .Rmd files.
+Make sure you have met the requirements in the "Requirements" section of the main `README.md` file.
 
-1. Run all chunks in the Rmd file `analysis.Rmd`.
+1. Download the `cleaned_eug_spd.csv` file. Refer to the `File Structure` section in the main `README.md` file to ensure proper structure.
+2. Run all chunks in the Rmd file `analysis.Rmd`.
 - Make sure packages get imported first, and the chunks are run in order to prevent errors and messing up the data.
 
 ## Dependencies
