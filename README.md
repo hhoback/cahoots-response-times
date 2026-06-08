@@ -52,7 +52,7 @@ Before running any files, ensure you have met all [Requirements] (#requirements)
 
 ### 1. Run all chunks in `clean_data.Rmd`
 Cleans and prepares the raw data and produces an output file of the cleaned data, detailed in the individual `README.md` file in the `data cleaning` folder.
-> Note: Each step below uses the cleaned data file produced by this step. Run `clean_data.Rmd` first.
+> Note: Each step below uses the cleaned data file produced by this step. Run `clean_data.Rmd` first. Alternatively, directly download the cleaned data file `cleaned_eug_spd.csv` and move on to the next step.
 
 ### 2. Run all chunks in `analysis.Rmd`
 Performs a full analysis of the EPD and SPD data for each priority group. Compares average response times over time between agencies, performing a parallel trends analysis on the pre-shutdown data. Performs a difference-in-differences study of the EPD and SPD data for each priority group, looking at how average response times changed in Eugene after CAHOOTS shut down, using Springfield as a control. Produces output files of the analysis, detailed in the individual `README.md` file in the `analysis/` folder. 
