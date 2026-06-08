@@ -14,6 +14,7 @@ The goal of this stage is to:
 
 ## Folder Contents
 
+- `data/`: Folder containing all necessary raw data files.
 - `clean_data.Rmd`: Loads raw data, fixes formatting issues, removes null values, combines data, creates new variables, and outputs a cleaned version ready for analysis.
 
 ## Input Files
